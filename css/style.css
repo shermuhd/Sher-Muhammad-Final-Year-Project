@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial,'Montserrat',sans-serif;
+}
+
+.uppercase, .navbar-nav li{
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+section:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+@media(min-width:10px) and (max-width:767px){
+    .text{
+        text-align: center;
+    }
+}
+
+@media(min-width:10px) and (max-width:767px){
+    ::placeholder{
+        text-align: center;
+    }
+}
+
+.profile{
+    box-sizing: border-box
+}
+
+@media screen and (max-width: 1200px){
+
+    .about{
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .about{
+        padding-right: 50px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .profile-img{
+        
+        margin: auto;
+    }
+}
+
+.top-list{
+    color: #fff;
+}
+
+.top-list:hover{
+    color: #EF801A;
+
+}
+
+.top-list-active{
+    color: #EF801A;
+    
+}
+
+.menu-icon{
+    color: #fff;
+    height: 50px;
+    outline: #000;
+}
+
+.about-college{
+    background-color: #EF801A;
+    color: #fff;
+}
+
+.read-more{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    margin: 0px 25px;
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 575px){
+    .read-more{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+}
+.read-more:hover{
+    background-color: rgb(21, 130, 255);
+}
+
+.contact-us{
+    background-color: #EF801A;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 25px 10px;
+    padding-left: 10%;
+}
+
+.contact-text{
+    padding: 30px 10px;
+    padding-left: 10%;
+}
+
+.contact-text-2{
+    padding: 0px 10px;
+    padding-left: 10%;
+}
+
+.form-class{
+    padding: 5px 10px;
+    padding-left: 10%;
+}
+
+@media screen and (max-width:768px ){
+    .text-left{
+        text-align: left;
+    }
+    #contact-heading{
+        text-align: center;
+    }
+}
+
+.contact-btn{
+    color: #fff;
+    background-color: #EF801A;
+    padding: 10px 25px;
+    border-radius: 0;
+}
+
+.contact-btn:hover{
+    background-color: rgb(21, 130, 255);
+}
+
+.courses-background{
+    background-color: #EF801A;
+}
+
+.course-width{
+    width: 20%;
+}
+
+.background-color{
+    background-color: #EF801A;
+}
+
+.text-center{
+    vertical-align: center;
+}
+
+.new-card{
+    width: 20%;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.card-head{
+    padding: 50px 10px;
+    text-align: center;
+}
+
+.background{
+    background-color: #EF801A;
+}
+
+.new-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width: 1000px){
+    .new-card{
+        width: 40%;
+        margin-top: 10px;
+    }
+}
+
+.foo-section{
+    background-color: #001421;
+    color: #fff;
+}
